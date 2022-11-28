@@ -55,9 +55,11 @@ python -m experiment.run_experiment --help
 
 
 ## Added by YK (Default values)
---batch_size: batch size to use in training.
+
+  --batch_size: batch size to use in training.
     (default: '100')
     (an integer)
+    
   --beta_vae: beta-vae parameter.
     (default: '1.0')
     (a number)
