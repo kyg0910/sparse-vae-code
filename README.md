@@ -63,55 +63,76 @@ python -m experiment.run_experiment --help
   --beta_vae: beta-vae parameter.
     (default: '1.0')
     (a number)
+    
   --data: name of setting to use from [simulated, peerread_small,
     movielens_small, zeisel]
     (default: 'simulated')
+    
   --datafile: path to file if using raw data files.
     (default: '')
+    
   --epochs: number of epochs for training.
     (default: '100')
     (an integer)
+    
   --hidden_dim: dimension of hidden layers.
     (default: '300')
     (an integer)
+    
   --[no]is_discrete: flag that indicates if observed data is continuous or
     discrete.
     (default: 'false')
+    
   --lambda0: lambda0 regularization parameter for spikeslab.
     (default: '10.0')
     (a number)
+    
   --lambda1: lambda1 regularization parameter for spikeslab.
     (default: '1.0')
     (a number)
+    
   --[no]load: flag to load saved model.
     (default: 'false')
+    
   --loss_type: loss to use from [mse, binary, categorical]
     (default: 'mse')
+    
   --lr: learning rate for Adam
     (default: '0.01')
     (a number)
+    
   --model: variant of VAE model to fit from [spikeslab, vae, vsc]
     (default: 'spikeslab')
+    
   --model_file: file where model is saved.
     (default: 'svae_simulated')
+    
   --n_components: number of latent components to use.
     (default: '5')
     (an integer)
+    
   --num_folds: number of splits.
     (default: '2')
     (an integer)
+    
   --outdir: directory to which to write outputs.
     (default: '../out/')
+    
   --[no]pretrained: flag to use pretrained topics or not.
     (default: 'false')
+    
   --pretraining_file: path to pretrained data.
     (default: '')
+    
   --procfile: path to file for processed data.
     (default: '')
+    
   --[no]row_norm: flag to row normalize W or not in spike slab model.
     (default: 'false')
+    
   --[no]save: flag to save model.
     (default: 'false')
+    
   --split: split to run experiment.
     (default: '0')
     (an integer)
